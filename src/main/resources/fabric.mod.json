@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "extramusicdiscs",
+	"version": "${version}",
+	"name": "Extra Music Discs",
+	"description": "This mod adds various music discs with music from many artists!",
+	"authors": [
+		"Shine0064"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/extramusicdiscs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.shine0064.extramusicdiscs.ExtraMusicDiscs"
+		],
+		"client": [
+			"de.shine0064.extramusicdiscs.ExtraMusicDiscsClient"
+		],
+		"fabric-datagen": [
+			"de.shine0064.extramusicdiscs.ExtraMusicDiscsDataGenerator"
+		]
+	},
+	"mixins": [
+		"extramusicdiscs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
