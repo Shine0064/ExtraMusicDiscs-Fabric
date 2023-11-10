@@ -1,5 +1,8 @@
 package de.shine0064.extramusicdiscs;
 
+import de.shine0064.extramusicdiscs.item.ModItemGroups;
+import de.shine0064.extramusicdiscs.item.ModItems;
+import de.shine0064.extramusicdiscs.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class ExtraMusicDiscs implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+
+		ModSounds.registerSounds();
 	}
 }

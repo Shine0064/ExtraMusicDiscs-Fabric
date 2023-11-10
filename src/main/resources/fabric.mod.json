@@ -3,13 +3,13 @@
 	"id": "extramusicdiscs",
 	"version": "${version}",
 	"name": "Extra Music Discs",
-	"description": "This mod adds various music discs with music from many artists!",
+	"description": "This mod adds various music discs with music from various artists!\nArtists whose music has been used:\nChiru-san - https://www.youtube.com/channel/UC0Fs1NdIoHcsTuqTwqblSNQ",
 	"authors": [
 		"Shine0064"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric",
+		"sources": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric"
 	},
 	"license": "MIT",
 	"icon": "assets/extramusicdiscs/icon.png",
@@ -35,6 +35,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+
 	}
 }
