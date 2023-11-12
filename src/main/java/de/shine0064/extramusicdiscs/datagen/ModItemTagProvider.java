@@ -25,6 +25,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
             getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(disc)
             ;
+
+            getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(disc)
+            ;
         });
     }
 }

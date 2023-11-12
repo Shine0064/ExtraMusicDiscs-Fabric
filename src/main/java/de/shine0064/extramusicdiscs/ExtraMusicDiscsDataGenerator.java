@@ -15,9 +15,4 @@ public class ExtraMusicDiscsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLangProvider::new);
 	}
-
-//	@Override
-//	public void buildRegistry(RegistryBuilder registryBuilder) {
-//
-//	}
 }

@@ -40,6 +40,5 @@ public class ModModelProvider extends FabricModelProvider {
             itemModelGenerator.register(disc, Models.GENERATED);
         });
 
-
     }
 }

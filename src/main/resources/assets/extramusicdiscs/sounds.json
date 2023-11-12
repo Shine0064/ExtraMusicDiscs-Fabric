@@ -102,5 +102,45 @@
                 "stream": true
             }
         ]
+    },
+    "music_disc.aurora": {
+        "sounds": [
+            {
+                "name": "extramusicdiscs:records/aurora",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.voxel": {
+        "sounds": [
+            {
+                "name": "extramusicdiscs:records/voxel",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.moongazer": {
+        "sounds": [
+            {
+                "name": "extramusicdiscs:records/moongazer",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.bubbles": {
+        "sounds": [
+            {
+                "name": "extramusicdiscs:records/bubbles",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.1am": {
+        "sounds": [
+            {
+                "name": "extramusicdiscs:records/1am",
+                "stream": true
+            }
+        ]
     }
 }

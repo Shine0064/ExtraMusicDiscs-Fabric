@@ -16,8 +16,9 @@ public class ModLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add("itemgroup.extramusicdiscs.chiru_san", "§dExtra Music Discs: Chiru-san");
-        translationBuilder.add("itemgroup.extramusicdiscs.others", "§dExtra Music Discs: Others");
+        translationBuilder.add("itemgroup.extramusicdiscs.chiru_san",   "§dExtra Music Discs: Chiru-san");
+        translationBuilder.add("itemgroup.extramusicdiscs.mvrly",       "§dExtra Music Discs: MVRLY");
+        translationBuilder.add("itemgroup.extramusicdiscs.others",      "§dExtra Music Discs: Others");
 
         MusicDiscs.Music_Discs_Map.forEach((entry, disc) -> {
             translationBuilder.add(disc, "Music Disc");

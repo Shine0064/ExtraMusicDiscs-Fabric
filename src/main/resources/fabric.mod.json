@@ -3,13 +3,14 @@
 	"id": "extramusicdiscs",
 	"version": "${version}",
 	"name": "Extra Music Discs",
-	"description": "This mod adds various music discs with music from various artists!\nArtists whose music has been used:\nChiru-san - https://www.youtube.com/channel/UC0Fs1NdIoHcsTuqTwqblSNQ",
+	"description": "This mod adds various music discs with music from various artists!\nArtists whose music has been used:\nChiru-san - https://www.youtube.com/channel/UC0Fs1NdIoHcsTuqTwqblSNQ\nMVRLY - https://www.youtube.com/@mvrlysound",
 	"authors": [
 		"Shine0064"
 	],
 	"contact": {
 		"homepage": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric",
-		"sources": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric"
+		"sources": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric",
+		"issues": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/extramusicdiscs/icon.png",
@@ -24,6 +25,15 @@
 		"fabric-datagen": [
 			"de.shine0064.extramusicdiscs.ExtraMusicDiscsDataGenerator"
 		]
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/extramusicdiscs",
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/extramusicdiscs",
+				"modmenu.github_releases": "https://github.com/Shine0064/ExtraMusicDiscs-Fabric/releases"
+			}
+		}
 	},
 	"mixins": [
 		"extramusicdiscs.mixins.json"

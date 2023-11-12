@@ -8,19 +8,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
-//    public static final Item MUSIC_DISC_CHERRY = registerItem(
-//        "music_disc_cherry",
-//        new MusicDiscItem(
-//            1,
-//            ModSounds.MUSIC_DISC_CHERRY,
-//            new FabricItemSettings()
-//                .rarity(Rarity.EPIC)
-//                .maxCount(1),
-//            201
-//        )
-//    );
-
     public static Item registerItem(String name, Item item) {
         return Registry.register(
             Registries.ITEM,
