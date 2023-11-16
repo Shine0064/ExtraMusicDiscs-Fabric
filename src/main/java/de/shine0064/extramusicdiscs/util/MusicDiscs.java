@@ -37,6 +37,7 @@ public class MusicDiscs {
         new MusicDiscEntry("chiru_san_1am",                     "Chiru-san",                "1AM",                      154),
 
         // Glitch Cat
+        new MusicDiscEntry("glitch_cat_spirit",                 "Glitch Cat",               "Spirit",                   201, "glitch_cat_nexus"), // TODO: Add own texture.
         new MusicDiscEntry("glitch_cat_crush",                  "Glitch Cat",               "Crush",                    284),
         new MusicDiscEntry("glitch_cat_chasing_stars",          "Glitch Cat",               "Chasing Stars",            282),
         new MusicDiscEntry("glitch_cat_nexus",                  "Glitch Cat",               "Nexus",                    232),
