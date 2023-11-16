@@ -22,10 +22,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
-        MusicDiscs.Music_Discs_Map.forEach((entry, disc) -> {
+        MusicDiscs.MUSIC_DISC_ENTRY_ITEM_MAP.forEach((entry, disc) -> {
             if (entry.textureOverride != null) {
                 final Item[] texture = new Item[1];
-                MusicDiscs.Music_Discs_Map.forEach((entry2, i) -> {
+                MusicDiscs.MUSIC_DISC_ENTRY_ITEM_MAP.forEach((entry2, i) -> {
                     if (entry2.name.equals(entry.textureOverride))
                         texture[0] = i;
                 });

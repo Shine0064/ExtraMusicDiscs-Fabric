@@ -6,12 +6,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
+import java.util.HashMap;
+
 public class ModSounds {
-//    public static final SoundEvent MUSIC_DISC_CHERRY = registerSoundEvent("music_disc.cherry");
+    public static HashMap<String, SoundEvent> SOUNDS = new HashMap<>();
 
     public static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(ExtraMusicDiscs.MOD_ID, name);
-        return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
+        SoundEvent sound = Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
+        SOUNDS.put(name, sound);
+        return sound;
     }
 
     public static void registerSounds() {
