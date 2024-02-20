@@ -41,4 +41,5 @@ replay_*.log
 *.jfr
 
 # Others
-/yt-dlp.exe
+yt-dlp.exe
+
